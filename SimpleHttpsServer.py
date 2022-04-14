@@ -3,7 +3,7 @@ import socketserver
 
 PORT = 8000
 #DIRECTORY = "Dockers/SimpleHttpsServer/SharedFiles"
-DIRECTORY = "/mnt/myfile"
+DIRECTORY = "/my_file"
 
 
 class Handler(http.server.SimpleHTTPRequestHandler):
